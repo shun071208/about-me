@@ -5,13 +5,15 @@
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 .header {
-    background: #333;
-    color: #fff;
+    background: #c2ed82;
+    color: #0acace;
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .nav ul {
@@ -25,18 +27,19 @@
 }
 
 .nav ul li a {
-    color: #fff;
+    color: #0acace;
     text-decoration: none;
 }
 
 .footer {
     text-align: center;
     padding: 3rem;
-    background: #333;
-    color: #fff;
+    background: #c2ed82;
+    color: #0acace;
     position: fixed;
     width: 100%;
     bottom: 0;
+    
 }
 
 @media (max-width: 600px) {
