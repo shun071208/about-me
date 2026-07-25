@@ -14,12 +14,8 @@ main{
     padding:40px;
     box-shadow:0 8px 20px rgba(0,0,0,0.1);
     text-align:center;
-    transition:0.3s;
 }
 
-main:hover{
-    transform:translateY(-5px);
-}
 
 header{
     background:#b8ec63;
@@ -127,7 +123,9 @@ p{
     transform:translateY(-5px);
     box-shadow:0 10px 20px rgba(0,0,0,0.15);
 }
-
+.skill{
+    text-align: center;
+}
 .skill h3{
     margin-top:0;
     color:#00bcd4;
@@ -138,6 +136,138 @@ p{
     color:#666;
     font-size:16px;
 }
+
+#favorite h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.favorite-box{
+    background:#ffffff;
+    margin:20px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    text-align:center;
+}
+
+.favorite-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.favorite-box h3{
+    margin-top:0;
+    color:#00bcd4;
+    font-size:24px;
+}
+
+.favorite-box p{
+    color:#666;
+    font-size:16px;
+}
+
+.hobby-box{
+    margin:20px 0;
+}
+
+
+.hobby-card{
+    background:#ffffff;
+    margin:20px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    text-align:center;
+}
+
+
+.hobby-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+.hobby-card h3{
+    margin-top:0;
+    color:#00bcd4;
+    font-size:24px;
+}
+
+
+.hobby-card p{
+    color:#666;
+    font-size:16px;
+}
+#hobby .hobby-box{
+    margin-bottom:0;
+}
+.hobby-images{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.hobby-images img{
+    width:150px;
+    height:100px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.contact-box form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+.contact-box label{
+    text-align:left;
+    color:#555;
+    font-size:16px;
+}
+
+
+.contact-box input,
+.contact-box textarea{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+.contact-box{
+    background:#ffffff;
+    margin:20px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.contact-box textarea{
+    height:150px;
+    resize:none;
+}
+
+
+.contact-box button{
+    background:#00bcd4;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.contact-box:hover{
+    transform:none;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
 @media (max-width:600px){
 
     header,
