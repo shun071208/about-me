@@ -83,7 +83,16 @@ footer{
     padding:30px;
     margin-top:80px;
 }
+.fadein{
+    opacity:0;
+    transform:translateY(30px);
+    transition:0.8s;
+}
 
+.fadein.show{
+    opacity:1;
+    transform:translateY(0);
+}
 /* ===========================
    TOPページ コンテンツカード
 =========================== */

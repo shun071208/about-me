@@ -5,59 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>好きなもの</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="body">
 
 <header class="header">
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">プロフィール</a></li>
-            <li><a href="skills.html">特技</a></li>
-            <li><a href="favorite.html">好きなもの</a></li>
-            <li><a href="hobbies.html">趣味</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
+<nav class="nav">
+    <ul>
+        <li><a href="index.html">プロフィール</a></li>
+        <li><a href="skills.html">特技</a></li>
+        <li><a href="favorite.html">好きなもの</a></li>
+        <li><a href="anime.html">アニメ</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
 
-    <h1>好きなもの</h1>
+<h1>好きなもの</h1>
 </header>
 
 
 <main>
 
-<section id="favorite">
+<section id="hobby">
 
     <h2>好きなもの</h2>
 
-    <div class="favorite-box">
-        <h3>🎮ゲーム</h3>
-        <img src="images/game.jpg" alt="ゲーム">
+<div class="hobby-box">
+
+    <div class="hobby-card">
+        <h3>🎮 ゲーム</h3>
+
+        <div class="hobby-images">
+
+    <figure>
+        <img src="images/terraria.jpg" alt="Terraria">
+        <figcaption>Terraria</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/valorant.jpg" alt="VALORANT">
+        <figcaption>VALORANT</figcaption>
+    </figure>
+
+</div>
+
         <p>
-            友達と色々なゲームをするのが好きです。
+            FPSやサンドボックスゲームをプレイするのが好きです。
         </p>
     </div>
 
+</div>
 
-    <div class="favorite-box">
-        <h3>🎧音楽</h3>
-        <img src="images/music.jpg" alt="音楽">
+    <div class="hobby-card">
+        <h3>🎧 音楽鑑賞</h3>
+        <div class="hobby-images">
+
+    <figure>
+        <img src="images/kaf.jpg" alt="花譜">
+        <figcaption>花譜</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/EoC.jpg" alt="Empty old City">
+        <figcaption>Empty old City</figcaption>
+    </figure>
+
+</div>
         <p>
-            神椿の曲を中心に聴いています。
+            好きな音楽を聴いてリラックスすることが好きです。
         </p>
     </div>
 
+    <div class="hobby-card">
+        <h3>🍙 食事</h3>
+        <div class="hobby-images">
 
-    <div class="favorite-box">
-        <h3>🍜食べ物</h3>
+    <figure>
         <img src="images/ramen.jpg" alt="ラーメン">
+        <figcaption>ラーメン</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/まーぼ.jpg" alt="麻婆豆腐">
+        <figcaption>麻婆豆腐</figcaption>
+    </figure>
+
+</div>
         <p>
-            ラーメンや餃子、麻婆豆腐を食べることが好きです。
+            ラーメンや餃子、麻婆豆腐などの中華料理が好きです。
         </p>
     </div>
-
+</div>
 
 </section>
 
@@ -67,6 +108,7 @@
 <footer class="footer">
     <p>&copy; 2026 伏木駿</p>
 </footer>
+<script src="js/script.js"></script>
 
 </body>
 </html>
